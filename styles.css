@@ -77,12 +77,13 @@ a:hover{
 }
 
 #stuff{
-	/*position:relative;*/
+	position:relative;
 	text-align:left;
 	vertical-align: top;
 	display: inline-block;
 	padding: 2%;
 	width:calc(88% - 150px);
+	max-width:929px;
 }
 
 @media(max-width: 600px){
